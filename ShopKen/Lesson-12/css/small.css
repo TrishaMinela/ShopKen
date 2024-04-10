@@ -1,0 +1,718 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@300&family=Martel:wght@300&display=swap');
+
+/* BODY */
+
+
+*{
+    margin: 0;
+      padding: 0;
+      outline: none;
+      border: none;
+      box-sizing: border-box;
+  }
+  *:before,
+  *:after{
+      box-sizing: border-box;
+  }
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: #FFF6EB;
+    font-family: 'Encode Sans SC', sans-serif;
+}
+
+
+/* MAIN */
+
+
+html main {
+    color: #FFF6EB;
+}
+
+
+/* WEATHER */
+
+table {
+    width: auto;
+    margin: 0 auto;
+    border: 3px solid #FFF6EB;
+    margin-bottom: 4rem;
+}
+
+td {
+    padding: 2rem;
+    font-size: 2rem; 
+    color: #515A47;
+}
+
+.weather-home {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+/* HEADING */
+
+.header-left {
+    display: none;
+}
+
+.headingtext {
+    width: 100%;
+    height: auto;
+    background-color: #95B46A;
+    color: black;
+}
+
+.Titlelogo {
+    width: 20rem;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem; 
+}
+
+.motto {
+    font-family: 'Martel', serif;
+    font-size: 1.5rem;
+    color: #0005;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* NAVIGATION */
+
+.logo {
+    width: 4rem;
+    height: auto;
+    margin-top: .5rem;
+}
+
+nav ul li a {
+    color: white;
+    padding: 7px 13px !important;
+    border-radius: 5px;
+    font-size: 1.5rem !important;
+    margin-top: 1rem;
+    text-decoration: none;
+}
+
+#firstchild {
+    margin-top: 0;
+}
+
+#lastchild {
+    margin-bottom: 1rem;
+}
+
+  .clear:before,
+  .clear:after {
+    display: table;
+    line-height: 0;
+    content: "";
+  }
+
+  .clear:after {
+    clear: both;
+  }
+
+  .container{
+      width: 95%;
+
+      margin: 0 auto;
+  }
+
+  .clear{
+      width: 100%;
+      height: auto;
+      background-color: #515A47;
+  }
+
+
+
+  h1{
+      font-weight: 300;
+      line-height: 40px;
+  }
+
+  nav a{
+      text-decoration: none;
+      color: white;
+      border-right: solid 2px;
+      position: relative;
+      display: block;
+      font-size: 13px;
+      line-height: 40px;
+      padding: 0 3rem;
+      transition: all .3s ease;
+  }
+
+
+  
+.hamburger li:first-child {
+    display: block;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    padding-bottom: 1rem;
+}
+
+.hamburger li {
+    display: none;
+}
+
+.responsive li {
+    display: block;
+}
+
+.ham {
+    border-top: none;
+}
+
+nav ul li.active a, nav ul li a:hover{
+    background: #95B46A;
+    padding: 1rem; 
+}
+
+
+/* HERO */
+
+.join-background {
+    position: relative;
+    background-image: url("../images/municipal.png");
+    background-size:auto;
+    height: 450px;
+    opacity: 80%;
+}
+.top-home {
+    position:relative;
+    background-image: url("../images/homesmall.jpg");
+    background-size: cover;
+    height: 700px;
+    margin-bottom: 2rem;
+}
+
+.top-calauan {
+    position:relative;
+    background-image: url("../images/calauan.png");
+    background-size: cover;
+    height: 700px;
+    margin-bottom: 2rem;
+    margin-top: 0 !important;
+}
+
+/* ACTION */
+
+.call-to-action{
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    text-align: center;
+    font-weight: 900;
+   
+}
+
+.title-join {
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    line-height: 4rem;
+    text-align: center;
+    font-weight: 900;
+    font-family: 'Encode Sans SC', sans-serif;
+    font-size: 3rem;
+    color: black;
+    margin: 0 auto;
+    background: #f8d387;
+    padding: 2rem;
+}
+
+.call-to-action h1 {
+    margin: 0;
+    border: 5px solid white;
+    padding: 1rem;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.call-to-action h2 a{
+    text-decoration: none;
+    color:#515A47;
+    font-size: 2.5rem;
+    background: white;
+    padding: .5rem;
+}
+
+/* CONTACT */
+
+
+/* ATTRIBUTIONS */
+.attributions {
+    background: #FFF6EB;
+    color: #515A47;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10rem;
+}
+
+/* COMPANIES */
+
+
+.companies-home {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.companies {
+    margin-top: 4rem !important;
+}
+
+.companies, .companies-home h2 {
+    display: block;
+    width: 100%;
+    color: #f8d387;
+    font-size: 3rem;
+    text-align: center;
+    padding: 1.5rem;
+    margin: 0 auto;
+    
+}
+
+.company-one, .company-two, .company-three, .small-business, .chamber {
+    background: #eeb849;
+    margin-top: 2rem;
+    padding: 1rem;
+    justify-content: center !important;
+    align-content: center !important;
+}
+
+.small-business{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2rem !important;
+    
+}
+
+.small-business h1, .chamber h1 {
+    margin-bottom: 1rem;
+}
+
+.chamber p, .small-business p{
+    margin-bottom: 2rem;
+    font-family: 'Martel', serif;
+}
+
+.member {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.chamber, .small-business {
+    margin: 0;
+}
+.companies-home p {
+    margin: 0 auto;
+    text-align: left;
+    padding: 2rem;
+    font-size: 1rem;
+    font-family: 'Martel', serif;
+}
+.img-companies img {
+    display: block;
+    margin: 0 auto;
+    width: 20rem;
+    height: auto;
+    padding: 1rem;
+}
+
+
+/* GALLERY */
+
+.gallery {
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 2rem;
+    filter: blur(0em);
+    transition: filter 0.7s;
+}
+
+/* EVENTS */
+
+.events h2{
+    color: black;
+    padding: 2rem;
+}
+.events p {
+    color: black;
+}
+.events {
+    width: 90%;
+    background: #95B46A;
+    color: #515A47;
+    font-family: 'Martel', serif;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0 auto;
+    opacity: 50%;
+    margin-bottom: 4rem;
+    padding-bottom: 2rem;
+}
+
+
+/* MEMBER */
+
+.small-business 
+
+/* PURPOSE */
+
+.purpose {
+    width: 100%;
+    background: #FFF6EB;
+    color: #515A47;
+    font-family: 'Martel', serif;
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.purpose p {
+    width: 60%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+
+/* CONTACT */
+.board {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.board h2 {
+    text-align: center;
+}
+
+.board p {
+    text-align: center;
+    padding-top: 1rem;
+}
+.director-one, .director-two, .director-three, .director-four, .director-five, .director-six {
+    height: auto;
+    width: 300px;
+    margin: 0 auto;
+    background: #3a3d36;
+    padding: 3rem;
+    margin-bottom:1rem;
+}
+.contact {
+    padding-top: 10px;
+    margin-top: 2rem;
+}
+
+.contact-grid {
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    background: #95B46A;
+    padding-bottom: 1rem;
+}
+footer p, footer a{
+    color: #515A47;
+    font-size: 1.5rem;
+    font-family:  'Encode Sans SC', sans-serif;
+    text-align: center;
+}
+
+.contact-info {
+    width: 100%;
+    background: #f8d387;
+    color: #515A47;
+}
+
+.contact-details {
+    font-size: 1.5rem;
+    width: 100%;
+    margin: 0 auto;
+    background: #f8d387;
+    text-align: left;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 5rem;
+}
+
+.contact-details h1 {
+    color:#3a3d36;
+    text-align: center;
+    padding: 2rem;
+}
+
+.contact-details p {
+    color: #3a3d36;
+    font-family: 'Martel', serif;
+    text-align: center;
+    font-size: 1rem;
+}
+.map {
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 410px;
+    border: 5px solid #515A47;
+
+}
+
+
+/* ABOUT */
+
+.info-calauan, .events-calauan, .background-member {
+    width: 100%;
+    height: auto;
+    background: #f8d387;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+
+
+.about, .history, .demographics, .known, .calauan-events {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    color: #515A47;
+    text-align: left;
+    font-family: 'Martel', serif;
+    
+}
+
+.about h1, .history h1, .demographics h1, .known h1, .gallery h1, .calauan-events h1{
+    font-family: 'Encode Sans SC', sans-serif;
+    padding: 2rem 0 0;
+    color: #515A47;
+}
+
+.about h1{
+    padding-top: 0;
+}
+.calauan-events, .calauan-events h1{
+    text-align: center;
+    padding-top: 0;
+}
+
+.gallery h1 {
+    text-align: center;
+    padding: 0;
+    width: 200px;
+    height: 150px;
+    padding-top: 10px;
+}
+
+
+/* SIGN UP */
+.button {
+    font-weight: bold;
+    color: #FFF6EB;
+    background: #515A47;
+    padding: 15px 30px;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    font-size: 2rem;
+}
+
+
+/* MODAL */
+
+
+.close {
+    color: black;
+    transform: scale(1.2)
+}
+
+.modal-content1, .modal-content2{
+    font-weight: bold;
+    background: #515A47;
+}
+
+.form-control {
+    margin: 1rem 0;
+}
+
+.form-control:hover, .form-control:focus {
+    box-shadow: none;
+    border-color: #FFF6EB;
+}
+
+.fullname, .company-name, .email, .street, .phone, .comment, .website, .job-title, .description, .membership-level option, .membership-level, .Chamber, .address{
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    border-bottom: 2.5px solid #95B46A;
+    padding-left: 0;
+    font-weight: normal;
+    background: transparent;
+}
+
+.form-control::-webkit-input-placeholder{
+    color: #f8d387;
+}
+
+.submit {
+    padding: 6px 20px;
+    background: none;
+    color: #FFF6EB;
+    border: 2px solid #FFF6EB;
+    font-weight: bold;
+    transition: all .5s;
+    margin-top: 1rem;
+}
+
+.submit:hover {
+    background: #FFF6EB;
+    color: black;
+}
+
+
+/* FORM */
+.form , .contact-us{
+    width: 50%;
+    margin: 0 auto;
+    background: #515A47;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding: 2rem;
+}
+
+.contact-us input, .contact-us textarea {
+    width: 70%;
+    font-size: 1rem;
+}
+
+.contact-us textarea {
+    width: 100%;
+    color: #f8d387;
+    height: 5rem;
+}
+.membership-level {
+    width: 100%;
+}
+
+.membership-level option, select {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #f8d387;
+    background: #515A47;
+}
+.form h3 {
+    display: block;
+    text-align: left;
+    font-size: 3rem;
+}
+
+.form input, .contact-us input{
+    width: 100%;
+}
+
+
+
+
+/* BUSINESSES */
+
+.wrapper {
+    display: block;
+    width: 100%;
+    background: #3a3d36;
+    color: white;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+
+
+button.button {
+    display: block;
+   
+}
+
+.list, .grid{
+    float: left;
+    padding: 1rem;
+    padding-left: 1rem;
+}
+
+#businesses {
+    display: block;
+    width: 100%;
+    background: #f8d387;
+    margin: 0 auto;
+    padding-top: 8rem;
+}
+
+.BusinessSpace {
+    width: 60%;
+    background: #515A47;
+    color: #f8d387;
+    font-family: 'Martel', serif;
+    padding: 2rem;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+.BusinessSpace h2, .BusinessSpace p {
+    text-align: center;
+}
+
+.p2 {
+    display: block;
+    color: white;
+}
+
+.feature {
+    width: 90%;
+    display: block;
+    height: auto;
+    margin-top: 1rem !important;
+    margin-bottom: 1rem;
+    max-width: 300px;
+    margin: 0 auto;
+}
+.logos {
+    display: block;
+    max-width: 100px;
+    width: 50%;
+    height: auto;
+    margin-top: 1rem;
+    margin: 0 auto;
+}
+
+
+
+/* TEST */
+
+fef {
+    color: #95B46A;
+    color: #515A47;
+    color: #FFF6EB;
+    color: #eeb849;
+    color: rgb(238,184,73)
+}

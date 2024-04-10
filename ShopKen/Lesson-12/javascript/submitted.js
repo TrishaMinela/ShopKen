@@ -1,0 +1,1 @@
+alert("Your information has been submitted. Please check your email for confirmation.")

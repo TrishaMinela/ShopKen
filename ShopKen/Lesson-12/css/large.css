@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@300&family=Martel:wght@300&display=swap');
+@media only screen and (min-width: 1400px){
+/* BODY */
+
+
+
+/* MAIN */
+
+
+
+
+
+/* MEMBERSHIP */
+
+
+
+/* BUSINESSES */
+#businesses {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem
+}
+
+
+/* ACTION */
+
+.call-to-action{
+    left: 70%;
+}
+
+/* COMPANIES */
+
+.companies-home {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.company-one {
+    grid-column: 1/2;
+} 
+
+.company-two {
+    grid-column: 2/3;
+}
+
+.company-three {
+    grid-column: 3/4;
+}
+
+.img-companies img {
+    display: block;
+    margin: 0 auto;
+    width: 25rem;
+    height: auto;
+    padding: 1rem;
+    float: none;
+}
+
+
+
+
+
+/* GALLERY */
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+/* EVENTS */
+
+
+
+/* HEADING */
+
+
+
+
+/* NAVIGATION */
+
+
+
+
+/* CONTACT */
+.board {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+
+/* FOOTER */
+
+
+
+
+/* TEST */
+
+
+}

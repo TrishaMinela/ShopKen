@@ -1,0 +1,67 @@
+{
+    "businesses":
+    [{
+    "BusinessName": "TJZED Cafe",
+    "ContactNumber": "0998 999 2361",
+    "Website": "https://www.facebook.com/tjzedcafe/",
+    "Logo": "tjzed.png",
+    "FeatureImage": "tjzedf.png"
+},
+{
+    "BusinessName": "Lucidel Resort",
+    "ContactNumber": "(049568) 0039    ",
+    "Website": "https://www.facebook.com/LucidelsResortCalauan",
+    "Logo": "placeholder.png",
+    "FeatureImage": "lucidelf.png"
+},
+{
+    "BusinessName": "Morales Resort",
+    "ContactNumber": "Unavailable",
+    "Website": "Unavailable",
+    "Logo": "placeholder.png",
+    "FeatureImage": "moralesf.png"
+},
+{
+    "BusinessName": "Iskargu Restaurant",
+    "ContactNumber": "(049) 572 0092",
+    "Website": "https://www.facebook.com/isdakarnegulayatbp",
+    "Logo": "iskargu.png",
+    "FeatureImage": "iskarguf.png"
+},
+{
+    "BusinessName": "Isdaan Floating Restaurant",
+    "ContactNumber": "+639271763136",
+    "Website": "https://www.facebook.com/isdaanrestaurant",
+    "Logo": "isdaan.png",
+    "FeatureImage": "isdaanf.png"
+},
+{
+    "BusinessName": "Sweet Tooth",
+    "ContactNumber": "Unavailable",
+    "Website": "https://www.facebook.com/mangograhammm",
+    "Logo": "sweet.png",
+    "FeatureImage": "sweetf.png"
+},
+{
+    "BusinessName": "The Wing Alley",
+    "ContactNumber": "Unavailable",
+    "Website": "https://www.facebook.com/thewingalleycalauan",
+    "Logo": "wing.png",
+    "FeatureImage": "wingf.png"
+},
+{
+    "BusinessName": "ZeusPaulo Burger House",
+    "ContactNumber": "0975 988 9541",
+    "Website": "https://www.facebook.com/ZPBurgerHouse",
+    "Logo": "zp.png",
+    "FeatureImage": "zpf.png"
+},
+{
+    "BusinessName": "Hidden Valley",
+    "ContactNumber": "Unavailable",
+    "Website": "https://www.facebook.com/pages/Hidden%20Valley%20Springs/233934213787446/",
+    "Logo": "placeholder.png",
+    "FeatureImage": "hiddenf.png"
+}
+]
+}
